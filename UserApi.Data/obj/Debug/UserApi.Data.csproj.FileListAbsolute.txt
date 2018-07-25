@@ -1,0 +1,15 @@
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Data\obj\Debug\UserApi.Data.csprojResolveAssemblyReference.cache
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Data\bin\Debug\UserApi.Data.dll
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Data\bin\Debug\UserApi.Data.pdb
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Data\bin\Debug\UserApi.Entities.dll
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Data\bin\Debug\UserApi.Entities.pdb
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Data\obj\Debug\UserApi.Data.dll
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Data\obj\Debug\UserApi.Data.pdb
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\bin\Debug\UserApi.Data.dll
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\bin\Debug\UserApi.Data.pdb
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\bin\Debug\UserApi.Entities.dll
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\bin\Debug\UserApi.Entities.pdb
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\obj\Debug\UserApi.Data.csprojResolveAssemblyReference.cache
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\obj\Debug\UserApi.Data.csproj.CoreCompileInputs.cache
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\obj\Debug\UserApi.Data.dll
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Data\obj\Debug\UserApi.Data.pdb

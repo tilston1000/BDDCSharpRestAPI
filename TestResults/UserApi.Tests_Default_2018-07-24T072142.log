@@ -1,0 +1,300 @@
+﻿2018-07-24T07:21:42.8125886+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-24T07:21:42.9611910+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-24T07:21:42.9611910+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Tests\bin\Debug\UserApi.Tests.dll
+2018-07-24T07:21:42.9611910+01:00;VSTestExecutionThread;Info;Profile: Default
+2018-07-24T07:21:55.0470070+01:00;Thread#15;Info;Discovering target: Default
+2018-07-24T07:21:55.0490025+01:00;Thread#15;Info;Discovering tests from assembly: C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Tests\bin\Debug\UserApi.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UserApi.Tests/Default - 
+#1: Default - 
+#2: UserApi.Tests - 
+#3: GetUserFeature - 
+#6: UpdateUserFeature - 
+#4: Get user by Id - TestAssembly:UserApi.Tests/Feature:GetUserFeature/Scenario:Get+user+by+Id
+#5: Get non-existing user by Id - TestAssembly:UserApi.Tests/Feature:GetUserFeature/Scenario:Get+non-existing+user+by+Id
+#7: Updating a user with valid data - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+user+with+valid+data
+#8: Updating a non-existing user - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+non-existing+user
+#9: Updating a user with invalid data, Variant 0 - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+user+with+invalid+data%2c+Variant+0
+#10: Updating a user with invalid data, Variant 1 - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+user+with+invalid+data%2c+Variant+1
+#11: Updating a user with invalid data, Variant 2 - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+user+with+invalid+data%2c+Variant+2
+#12: Updating a user with invalid data, Variant 3 - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+user+with+invalid+data%2c+Variant+3
+#13: Updating a user with invalid data, Variant 4 - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+user+with+invalid+data%2c+Variant+4
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UserApi.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tilst.DESKTOP-LI3HQ3S\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to get the user by ID
+Thread#0:T:No matching step definition found for the step. There are matching step definitions, but none of them have matching scope for this step: GetUserFeatureSteps.WhenIRequestToGetTheUserByID().
+Thread#0:T:Change the scope or use the following code to create a new step definition:
+Thread#0:T:        [When(@"I request to get the user by ID")]
+Thread#0:T:public void WhenIRequestToGetTheUserByID()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then the user should be returned in the response
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the response status code is '200 OK'
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [When(@"I request to get the user by ID")]
+Thread#0:T:public void WhenIRequestToGetTheUserByID()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Pending within 0.7614824 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given that a user does not exist in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserDoesNotExistInTheSystem() (0.0s)
+Thread#0:B:When I request to get the user by ID
+Thread#0:T:No matching step definition found for the step. There are matching step definitions, but none of them have matching scope for this step: GetUserFeatureSteps.WhenIRequestToGetTheUserByID().
+Thread#0:T:Change the scope or use the following code to create a new step definition:
+Thread#0:T:        [When(@"I request to get the user by ID")]
+Thread#0:T:public void WhenIRequestToGetTheUserByID()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then no user should be returned in the response
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the response status code is '404 Not Found'
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [When(@"I request to get the user by ID")]
+Thread#0:T:public void WhenIRequestToGetTheUserByID()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Pending within 0.0099946 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Surname     | Email     |
+Thread#0:B:  | TestName | TestSurname | TestEmail |
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetails(<table>) (0.0s)
+Thread#0:B:Then the user should be updated
+Thread#0:T:done: UpdateUserFeatureSteps.ThenTheUserShouldBeUpdated() (0.0s)
+Thread#0:B:And the response status code is '200 OK'
+Thread#0:T:error:   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:TestItem#7:Scheduler: reschedule tests for testitem #7
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #7/0 is finished on thread #0 as Failed within 0.1770187 seconds
+Thread#0: Test #7/1 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Surname     | Email     |
+Thread#0:B:  | TestName | TestSurname | TestEmail |
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetails(<table>) (0.0s)
+Thread#0:B:Then the user should be updated
+Thread#0:T:done: UpdateUserFeatureSteps.ThenTheUserShouldBeUpdated() (0.0s)
+Thread#0:B:And the response status code is '200 OK'
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:T:  2)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #7/1 is finished on thread #0 as Failed within 0.1351496 seconds
+Thread#0: Test #7/2 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Surname     | Email     |
+Thread#0:B:  | TestName | TestSurname | TestEmail |
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetails(<table>) (0.0s)
+Thread#0:B:Then the user should be updated
+Thread#0:T:done: UpdateUserFeatureSteps.ThenTheUserShouldBeUpdated() (0.0s)
+Thread#0:B:And the response status code is '200 OK'
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:T:  2)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:T:  3)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/2 is finished on thread #0 as Failed within 0.1246671 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given that a user does not exist in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserDoesNotExistInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details Name: 'TestName' Surname: 'TestSurname' and Email: 'TestEmail'
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetailsNameSurnameAndEmail("TestName", "TestSurname", "TestEmail") (0.0s)
+Thread#0:B:Then the response status code is '404 Not Found'
+Thread#0:T:done: GetUserFeatureSteps.ThenTheResponseStatusCodeIs("404 Not Found") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.0588497 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details Name: 'TestName' Surname: 'TestSurname' and Email: ''
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetailsNameSurnameAndEmail("TestName", "TestSurname", "") (0.0s)
+Thread#0:B:Then the response status code is '400 Bad Request'
+Thread#0:T:done: GetUserFeatureSteps.ThenTheResponseStatusCodeIs("400 Bad Request") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread 0
+Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #10 for thread 0
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 0.0598398 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details Name: 'TestName' Surname: '' and Email: 'TestEmail'
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetailsNameSurnameAndEmail("TestName", "", "TestEmail") (0.0s)
+Thread#0:B:Then the response status code is '400 Bad Request'
+Thread#0:T:done: GetUserFeatureSteps.ThenTheResponseStatusCodeIs("400 Bad Request") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread 0
+Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #11 for thread 0
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0.0618343 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details Name: '' Surname: 'TestSurname' and Email: 'TestEmail'
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetailsNameSurnameAndEmail("", "TestSurname", "TestEmail") (0.0s)
+Thread#0:B:Then the response status code is '400 Bad Request'
+Thread#0:T:done: GetUserFeatureSteps.ThenTheResponseStatusCodeIs("400 Bad Request") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread 0
+Thread#0:TestItem#12:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#12:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#12:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #12 for thread 0
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 0.0563527 seconds
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details Name: '' Surname: '' and Email: 'TestEmail'
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetailsNameSurnameAndEmail("", "", "TestEmail") (0.0s)
+Thread#0:B:Then the response status code is '400 Bad Request'
+Thread#0:T:done: GetUserFeatureSteps.ThenTheResponseStatusCodeIs("400 Bad Request") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #13 from normal test queue 
+Thread#0:Scheduler: considering testitem #13 for thread 0
+Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #13 for thread 0
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 0.1092168 seconds
+Thread#0: Test #13/0 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details Name: '' Surname: '' and Email: ''
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetailsNameSurnameAndEmail("", "", "") (0.0s)
+Thread#0:B:Then the response status code is '400 Bad Request'
+Thread#0:T:done: GetUserFeatureSteps.ThenTheResponseStatusCodeIs("400 Bad Request") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 0.0668216 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 9 (test executions: 11)
+Succeeded: 6
+Ignored: 0
+Pending: 2
+Skipped: 0
+Failed: 1

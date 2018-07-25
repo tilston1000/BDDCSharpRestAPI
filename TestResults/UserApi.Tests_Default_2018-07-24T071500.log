@@ -1,0 +1,109 @@
+﻿2018-07-24T07:14:59.9378925+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-24T07:15:00.0815085+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-24T07:15:00.0815085+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Tests\bin\Debug\UserApi.Tests.dll
+2018-07-24T07:15:00.0825071+01:00;VSTestExecutionThread;Info;Profile: Default
+2018-07-24T07:15:11.1648269+01:00;Thread#12;Info;Discovering target: Default
+2018-07-24T07:15:11.1648269+01:00;Thread#12;Info;Discovering tests from assembly: C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Tests\bin\Debug\UserApi.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UserApi.Tests/Default - 
+#1: Default - 
+#2: UserApi.Tests - 
+#6: UpdateUserFeature - 
+#7: Updating a user with valid data - TestAssembly:UserApi.Tests/Feature:UpdateUserFeature/Scenario:Updating+a+user+with+valid+data
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UserApi.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\tilst.DESKTOP-LI3HQ3S\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Surname     | Email     |
+Thread#0:B:  | TestName | TestSurname | TestEmail |
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetails(<table>) (0.0s)
+Thread#0:B:Then the user should be updated
+Thread#0:T:done: UpdateUserFeatureSteps.ThenTheUserShouldBeUpdated() (0.0s)
+Thread#0:B:And the response status code is '200 OK'
+Thread#0:T:error:   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:TestItem#7:Scheduler: reschedule tests for testitem #7
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #7/0 is finished on thread #0 as Failed within 0.6015145 seconds
+Thread#0: Test #7/1 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Surname     | Email     |
+Thread#0:B:  | TestName | TestSurname | TestEmail |
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetails(<table>) (0.0s)
+Thread#0:B:Then the user should be updated
+Thread#0:T:done: UpdateUserFeatureSteps.ThenTheUserShouldBeUpdated() (0.0s)
+Thread#0:B:And the response status code is '200 OK'
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:T:  2)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #7/1 is finished on thread #0 as Failed within 0.0846225 seconds
+Thread#0: Test #7/2 is started on thread #0
+Thread#0:B:Given that a user exists in the system
+Thread#0:T:done: GetUserFeatureSteps.GivenThatAUserExistsInTheSystem() (0.0s)
+Thread#0:B:When I request to update the user by Id with details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Surname     | Email     |
+Thread#0:B:  | TestName | TestSurname | TestEmail |
+Thread#0:T:done: UpdateUserFeatureSteps.WhenIRequestToUpdateTheUserByIdWithDetails(<table>) (0.0s)
+Thread#0:B:Then the user should be updated
+Thread#0:T:done: UpdateUserFeatureSteps.ThenTheUserShouldBeUpdated() (0.0s)
+Thread#0:B:And the response status code is '200 OK'
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:T:  2)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:T:  3)   Expected: not null
+Thread#0:T:  But was:  null
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #7/2 is finished on thread #0 as Failed within 0.1002398 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

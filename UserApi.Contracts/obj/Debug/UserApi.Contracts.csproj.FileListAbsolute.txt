@@ -1,0 +1,11 @@
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Contracts\bin\Debug\UserApi.Contracts.dll
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Contracts\bin\Debug\UserApi.Contracts.pdb
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Contracts\obj\Debug\UserApi.Contracts.dll
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Contracts\obj\Debug\UserApi.Contracts.pdb
+D:\BitBucket\BDDAPI\UserApi.Api\UserApi.Contracts\obj\Debug\UserApi.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Contracts\bin\Debug\UserApi.Contracts.dll
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Contracts\bin\Debug\UserApi.Contracts.pdb
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Contracts\obj\Debug\UserApi.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Contracts\obj\Debug\UserApi.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Contracts\obj\Debug\UserApi.Contracts.dll
+C:\Users\tilst\Projects\Specflow\UserAPI\UserApi.Contracts\obj\Debug\UserApi.Contracts.pdb
